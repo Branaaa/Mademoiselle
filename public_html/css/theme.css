@@ -13776,12 +13776,29 @@ header .navbar-nav .nav-item .nav-link {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.68rem;
-  letter-spacing: 1;
+  letter-spacing: 1%;
   padding: 10px 0;
 }
 @media (min-width: 992px) {
   header .navbar-nav .nav-item .nav-link:hover {
     border-bottom: 1px solid #ecd9d9 !important;
   }
+}
+
+.hero {
+  padding: 252px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 55px);
+}
+@media (min-width: 992px) {
+  .hero {
+    min-height: calc(100vh - 106px);
+  }
+}
+.hero .hero-title {
+  text-align: center;
+  color: #fff;
 }
 /*# sourceMappingURL=theme.css.map */

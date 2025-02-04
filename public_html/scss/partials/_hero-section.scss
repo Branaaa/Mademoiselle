@@ -1,0 +1,17 @@
+.hero {
+  padding: 252px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: calc(100vh - 55px);
+
+  @media (min-width: 992px) {
+    min-height: calc(100vh - 106px);
+  }
+
+  .hero-title {
+    text-align: center;
+    color: #fff;
+  }
+}
