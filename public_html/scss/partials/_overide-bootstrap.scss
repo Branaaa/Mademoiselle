@@ -1,0 +1,23 @@
+html {
+  font-size: 10px;
+}
+
+$font-size-base: 1.6rem;
+$grid-gutter-width: 2.4rem;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1140px,
+);
+
+$h1-font-size: 6rem;
+$h2-font-size: 4.4rem;
+$h3-font-size: 3.6rem;
+$h4-font-size: 3rem;
+$h5-font-size: 1.6rem;
+
+$body-color: #000;
+$soft-peach: #ecd9d9;
+$white-smoke: #f5f5f5;
