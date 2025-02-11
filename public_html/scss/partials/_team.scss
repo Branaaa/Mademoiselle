@@ -1,0 +1,41 @@
+.team {
+  font-family: $playfair;
+  letter-spacing: 10%;
+  font-weight: 500;
+
+  .section-team {
+    display: inline-block;
+    position: relative;
+    padding: 12.7rem 0 7.5rem;
+  }
+
+  .section-team:before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    bottom: 60px;
+    right: 80%;
+    border-bottom: 2px solid #ecd9d9;
+  }
+
+  .team-all {
+    border-top: 2px dashed #ecd9d9;
+    border-bottom: 2px dashed #ecd9d9;
+    border-left: 2px solid #ecd9d9;
+    border-right: 2px solid #ecd9d9;
+    padding: 8.7rem 9.5rem 8.7rem 9.4rem;
+
+    .about-data-title {
+      font-family: $lato;
+      font-weight: 400;
+    }
+
+    .about-data-desc {
+      font-size: 1.6rem;
+      line-height: 2.8rem;
+      font-family: $lato;
+      font-weight: 300;
+      letter-spacing: 0;
+    }
+  }
+}

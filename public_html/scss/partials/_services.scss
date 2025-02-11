@@ -1,0 +1,56 @@
+.services {
+  padding: 0;
+  margin: 0;
+
+  .section-title {
+    padding: 9.7rem 0 7.4rem;
+    font-family: $playfair;
+    letter-spacing: 10;
+    display: inline-block;
+    position: relative;
+  }
+
+  .section-title:before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    bottom: 60px;
+    right: 70%;
+    border-bottom: 2px solid #ecd9d9;
+  }
+
+  .services-row {
+    padding: 0;
+    margin: 0;
+  }
+
+  .services-col {
+    padding: 0;
+  }
+
+  .ggg {
+    background-color: #ecd9d9;
+  }
+
+  .services-content {
+    .services-title {
+      padding: 16.2rem 0 4.2rem 7.1rem;
+      font-weight: 400 !important;
+      font-family: $lato !important;
+    }
+
+    .btn-services {
+      margin-left: 7.1rem !important;
+    }
+
+    .btn-services {
+      border: 1px solid #000;
+      padding: 1.5rem 3rem;
+      font-family: $lato;
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      letter-spacing: 10;
+    }
+  }
+}

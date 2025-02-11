@@ -1,0 +1,44 @@
+.blog {
+  .blog-title {
+    padding: 6.7rem 0 6.9rem;
+    letter-spacing: 10;
+    font-family: $playfair;
+    display: inline-block;
+    position: relative;
+  }
+
+  .blog-title:before {
+    content: "";
+    position: absolute;
+    width: 15%;
+    bottom: 55px;
+    right: 85%;
+    border-bottom: 2px solid #ecd9d9;
+  }
+  // text-decoration: underline;
+  // text-decoration-color: rgba(236, 217, 217, 1);
+
+  .blog-item {
+    .blog-all {
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .blog-link-p {
+      font-size: 1.4rem;
+      line-height: 4.6rem;
+      letter-spacing: 10;
+      font-family: $playfair;
+      font-weight: 500;
+      font-style: italic;
+      color: #000;
+    }
+
+    .blog-link-name {
+      font-family: $lato;
+      font-weight: 500;
+      letter-spacing: 10;
+      color: #000;
+    }
+  }
+}

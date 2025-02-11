@@ -1,0 +1,26 @@
+$copyright-color: #586c88;
+$social-color: #ecd9d9;
+
+footer {
+  padding: 6rem 0;
+  .social {
+    text-align: center;
+
+    .social-icon {
+      color: $social-color;
+      text-decoration: none;
+      padding-bottom: 1.6rem;
+      margin: 0 10px;
+      font-size: 2rem;
+    }
+  }
+
+  .copyright {
+    color: $copyright-color;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-family: $lato;
+    font-weight: 500;
+  }
+}

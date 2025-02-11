@@ -35,12 +35,15 @@ header {
         font-weight: 400;
         font-size: 1.4rem;
         line-height: 1.68rem;
-        letter-spacing: 1%;
+        letter-spacing: 1;
         padding: 10px 0;
+        transition: text-decoration-color 0.3 ease;
 
         @media (min-width: 992px) {
           &:hover {
-            border-bottom: 1px solid #ecd9d9 !important;
+            // border-bottom: 1px solid #ecd9d9 !important;
+            text-decoration: underline;
+            text-decoration-color: #ecd9d9;
           }
         }
       }
