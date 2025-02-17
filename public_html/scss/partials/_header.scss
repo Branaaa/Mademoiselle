@@ -25,6 +25,8 @@ header {
   }
 
   .navbar-nav {
+    text-align: center;
+
     .nav-item {
       @media (min-width: 992px) {
         margin-left: 6.8rem;
@@ -37,14 +39,11 @@ header {
         line-height: 1.68rem;
         letter-spacing: 1;
         padding: 10px 0;
-        transition: text-decoration-color 0.3 ease;
+        transition: 0.1s ease-in;
+        border-bottom: 2px solid transparent;
 
-        @media (min-width: 992px) {
-          &:hover {
-            // border-bottom: 1px solid #ecd9d9 !important;
-            text-decoration: underline;
-            text-decoration-color: #ecd9d9;
-          }
+        &:hover {
+          border-bottom: 2px solid #ecd9d9;
         }
       }
     }

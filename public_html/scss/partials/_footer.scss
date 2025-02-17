@@ -23,4 +23,20 @@ footer {
     font-family: $lato;
     font-weight: 500;
   }
+
+  @media (max-width: 576px) {
+    padding: 25px 0;
+
+    .copyright {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 25px 0;
+
+    .copyright {
+      margin: 0;
+    }
+  }
 }

@@ -4,6 +4,8 @@
   font-weight: 500;
 
   .section-team {
+    font-size: 3rem;
+    line-height: 4.6rem;
     display: inline-block;
     position: relative;
     padding: 12.7rem 0 7.5rem;
@@ -18,16 +20,74 @@
     border-bottom: 2px solid #ecd9d9;
   }
 
-  .team-all {
-    border-top: 2px dashed #ecd9d9;
-    border-bottom: 2px dashed #ecd9d9;
-    border-left: 2px solid #ecd9d9;
-    border-right: 2px solid #ecd9d9;
-    padding: 8.7rem 9.5rem 8.7rem 9.4rem;
+  .team-slider {
+    border: 2px solid #ecd9d9;
+    padding: 8.7rem 9.4rem;
+
+    .owl-dots {
+      margin: 0 !important;
+      padding-left: 125px;
+
+      .owl-dot {
+        span {
+          width: 24px;
+        }
+      }
+    }
+
+    @media (max-width: 576px) {
+      .team-slider {
+        padding: 0 !important;
+      }
+
+      .team-all {
+        padding: 0 !important;
+      }
+
+      .owl-dots {
+        padding: 0 !important;
+      }
+
+      .about-data-desc {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      padding: 20px 10px !important;
+
+      .about-data-title {
+        padding-bottom: 15px;
+        padding-top: 15px;
+      }
+
+      .owl-dots {
+        padding: 0 !important;
+      }
+
+      .about-data-desc {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      padding: 50px 20px !important;
+
+      .about-data-desc {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .about-data-desc {
+        margin-bottom: 40px;
+      }
+    }
 
     .about-data-title {
       font-family: $lato;
       font-weight: 400;
+      padding-bottom: 1.7rem;
     }
 
     .about-data-desc {
