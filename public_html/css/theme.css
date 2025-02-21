@@ -13816,13 +13816,6 @@ header .navbar-nav .nav-item .nav-link:hover {
   display: inline-block;
   position: relative;
 }
-.blog .blog-zajedno {
-  position: relative;
-  width: 33%;
-}
-.blog .blog-zajedno img {
-  display: block;
-}
 .blog .blog-title:before {
   content: "";
   position: absolute;
@@ -13830,6 +13823,22 @@ header .navbar-nav .nav-item .nav-link:hover {
   bottom: 55px;
   right: 85%;
   border-bottom: 2px solid #ecd9d9;
+}
+.blog .blog-zajedno {
+  position: relative;
+}
+@media (max-width: 576px) {
+  .blog .blog-zajedno:first-of-type {
+    margin-bottom: 10rem;
+  }
+}
+@media (max-width: 768px) {
+  .blog .blog-zajedno:last-of-type {
+    margin-top: 10rem;
+  }
+}
+.blog .blog-zajedno img {
+  display: block;
 }
 .blog .blog-link {
   position: absolute;
@@ -13880,6 +13889,14 @@ header .navbar-nav .nav-item .nav-link:hover {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+@media (max-width: 1200px) {
+  .blog .blog-link .blog-link-name {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
 
 .services {

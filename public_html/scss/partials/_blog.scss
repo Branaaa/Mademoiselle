@@ -9,15 +9,6 @@
     position: relative;
   }
 
-  .blog-zajedno {
-    position: relative;
-    width: 33%;
-
-    img {
-      display: block;
-    }
-  }
-
   .blog-title:before {
     content: "";
     position: absolute;
@@ -25,6 +16,27 @@
     bottom: 55px;
     right: 85%;
     border-bottom: 2px solid #ecd9d9;
+  }
+
+  .blog-zajedno {
+    position: relative;
+    // width: 33%;
+
+    @media (max-width: 576px) {
+      &:first-of-type {
+        margin-bottom: 10rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      &:last-of-type {
+        margin-top: 10rem;
+      }
+    }
+
+    img {
+      display: block;
+    }
   }
 
   .blog-link {
@@ -64,6 +76,13 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+
+      @media (max-width: 1200px) {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
     }
   }
 }
