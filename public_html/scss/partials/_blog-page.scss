@@ -1,0 +1,34 @@
+.hero {
+  .hero-title {
+    font-size: 6rem;
+  }
+}
+
+.blog {
+  padding-top: 7.6rem;
+
+  .blog-zajedno {
+    .blog-item {
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+
+  .row-gap {
+    row-gap: 100px;
+  }
+
+  @media (max-width: 576px) {
+    .blog-zajedno:first-of-type {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .blog-zajedno:last-of-type {
+      margin: 0;
+    }
+  }
+}

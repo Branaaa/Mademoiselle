@@ -13794,6 +13794,7 @@ header .navbar-nav .nav-item .nav-link:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Playfair Display", serif;
   min-height: calc(100vh - 55px);
 }
 @media (min-width: 992px) {
@@ -13808,6 +13809,9 @@ header .navbar-nav .nav-item .nav-link:hover {
 
 .blog {
   padding-bottom: 9.7rem;
+}
+.blog .row-gap {
+  row-gap: 100px;
 }
 .blog .blog-title {
   padding: 6.7rem 0 6.9rem;
@@ -13900,7 +13904,7 @@ header .navbar-nav .nav-item .nav-link:hover {
 }
 
 .services {
-  padding: 0;
+  padding-top: 9.7rem;
   margin: 0;
 }
 .services img {
@@ -14177,6 +14181,91 @@ footer .copyright {
     padding: 25px 0;
   }
   footer .copyright {
+    margin: 0;
+  }
+}
+
+.services-single {
+  padding-bottom: 3rem;
+}
+
+.row-gap {
+  row-gap: 100px;
+}
+
+.services-single {
+  padding-bottom: 3rem;
+}
+.services-single .services-title {
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  padding-top: 6.3rem;
+  padding-bottom: 4.4rem;
+  margin: 0;
+}
+@media (max-width: 576px) {
+  .services-single .services-title {
+    font-size: 3rem !important;
+  }
+}
+@media (max-width: 1200px) {
+  .services-single .services-title {
+    font-size: 3.5rem;
+    padding: 20px 0;
+  }
+}
+.services-single .services-description {
+  font-family: "Lato", sans-serif;
+  line-height: 2.8rem;
+}
+@media (max-width: 992px) {
+  .services-single .services-description {
+    padding-bottom: 5rem;
+  }
+}
+.services-single .services-img {
+  padding: 4.7rem 0 15.9rem;
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
+}
+@media (max-width: 768px) {
+  .services-single .services-img {
+    padding: 20px 0;
+    margin: 0;
+  }
+}
+
+.blog .blog-title {
+  padding-top: 20px;
+}
+@media (max-width: 1200px) {
+  .blog .blog-title {
+    font-size: 2rem;
+  }
+}
+
+.hero .hero-title {
+  font-size: 6rem;
+}
+
+.blog {
+  padding-top: 7.6rem;
+}
+.blog .blog-zajedno .blog-item img {
+  width: 100%;
+  display: block;
+}
+.blog .row-gap {
+  row-gap: 100px;
+}
+@media (max-width: 576px) {
+  .blog .blog-zajedno:first-of-type {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .blog .blog-zajedno:last-of-type {
     margin: 0;
   }
 }

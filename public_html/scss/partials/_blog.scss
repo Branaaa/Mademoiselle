@@ -1,6 +1,10 @@
 .blog {
   padding-bottom: 9.7rem;
 
+  .row-gap {
+    row-gap: 100px;
+  }
+
   .blog-title {
     padding: 6.7rem 0 6.9rem;
     letter-spacing: 10;
@@ -20,7 +24,6 @@
 
   .blog-zajedno {
     position: relative;
-    // width: 33%;
 
     @media (max-width: 576px) {
       &:first-of-type {
