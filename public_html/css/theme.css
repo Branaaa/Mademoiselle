@@ -14269,4 +14269,104 @@ footer .copyright {
     margin: 0;
   }
 }
+
+.blog-single .blog-single-content .blog-single-info {
+  padding-top: 5rem;
+  padding-bottom: 5px;
+}
+.blog-single .blog-single-content .blog-single-info .separator {
+  height: 20px;
+  padding: 8px 12px 0;
+}
+.blog-single .blog-single-content .blog-single-info .blog-category a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 4.6rem;
+}
+.blog-single .blog-single-content .blog-single-info .blog-date {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 4.6rem;
+  letter-spacing: 10;
+  color: #000;
+}
+.blog-single .blog-single-content .blog-single-title {
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  font-size: 4.4rem;
+  line-height: 5.3rem;
+  padding-bottom: 2.6rem;
+}
+@media (max-width: 1200px) {
+  .blog-single .blog-single-content .blog-single-title {
+    font-size: 2.5rem;
+  }
+}
+.blog-single .blog-single-content .blog-single-description {
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+.blog-single .blog-single-img img {
+  width: 100%;
+  display: block;
+  padding-top: 6.7rem;
+}
+@media (max-width: 992px) {
+  .blog-single .blog-single-img img {
+    width: 100%;
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0;
+  }
+}
+@media (max-width: 992px) {
+  .blog-single .blog-single-img {
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0;
+  }
+}
+
+.blog-content .blog-data p {
+  margin-bottom: 4.7rem;
+}
+.blog-content .blog-data p:first-of-type {
+  padding-top: 104px;
+}
+.blog-content .blog-data p:last-of-type {
+  margin-bottom: 0;
+}
+.blog-content .blog-tag .tags-label {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 4.6rem;
+  letter-spacing: 10;
+  font-weight: 500;
+  padding-top: 3.7rem;
+}
+.blog-content .blog-tag .tags-list .tag-item {
+  background-color: #f5f5f5;
+  padding: 7px 20px;
+  margin-right: 12px;
+  margin-bottom: 18rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: 10;
+  font-weight: 500;
+}
+@media (max-width: 992px) {
+  .blog-content .blog-tag .tags-list .tag-item {
+    margin-bottom: 10rem;
+  }
+}
 /*# sourceMappingURL=theme.css.map */
