@@ -94,6 +94,10 @@
   padding: 8rem 0 8rem;
 
   .pagination {
+    .pagi-link.active {
+      font-weight: 700;
+    }
+
     .pagi-item a {
       text-decoration: none;
       color: #000;
@@ -116,10 +120,6 @@
       font-size: 2rem;
       line-height: 4.6rem;
       padding-left: 3rem;
-
-      &:active {
-        font-weight: 700;
-      }
 
       &:hover {
         font-family: $lato;

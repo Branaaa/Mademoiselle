@@ -13906,6 +13906,9 @@ header .navbar-nav .nav-item .nav-link:hover {
 .pagi-data {
   padding: 8rem 0 8rem;
 }
+.pagi-data .pagination .pagi-link.active {
+  font-weight: 700;
+}
 .pagi-data .pagination .pagi-item a {
   text-decoration: none;
   color: #000;
@@ -13925,9 +13928,6 @@ header .navbar-nav .nav-item .nav-link:hover {
   font-size: 2rem;
   line-height: 4.6rem;
   padding-left: 3rem;
-}
-.pagi-data .pagination .pagi-link:active {
-  font-weight: 700;
 }
 .pagi-data .pagination .pagi-link:hover {
   font-family: "Lato", sans-serif;
