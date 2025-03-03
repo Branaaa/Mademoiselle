@@ -1,0 +1,37 @@
+.hero {
+  padding: 252px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: $playfair;
+
+  min-height: calc(100vh - 55px);
+
+  @media (min-width: 992px) {
+    min-height: calc(100vh - 106px);
+  }
+
+  .hero-content {
+    .hero-title {
+      text-align: center;
+      color: #fff;
+      padding-bottom: 5.9rem;
+
+      @media (max-width: 768px) {
+        font-size: 4rem;
+        line-height: 5rem;
+      }
+    }
+
+    .btn-err404 {
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 1.6rem 2.7rem;
+      font-family: $lato;
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      font-weight: 500;
+      letter-spacing: 10;
+    }
+  }
+}

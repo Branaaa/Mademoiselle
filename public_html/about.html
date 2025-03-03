@@ -63,12 +63,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-uppercase" href="./services.html"
+                <a class="nav-link text-uppercase" href="./services.html"
                   >Services</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-uppercase" href="./blog.html">Blog</a>
+                <a class="nav-link active text-uppercase" href="./blog.html"
+                  >Blog</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link text-uppercase" href="./contact.html"
@@ -82,91 +84,102 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     </header>
 
     <main>
-      <section class="services-single">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-12 col-md-6 col-lg-5">
-              <figure class="services-img">
-                <img
-                  src="images/services/services-03.png"
-                  alt="section-single"
-                />
-              </figure>
-            </div>
-
-            <div class="col-12 col-md-6">
-              <article>
-                <h2 class="services-title text-uppercase">
-                  male and female haircut
-                </h2>
-                <p class="services-description">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text. It has roots in a piece of classical Latin literature
-                  from 45 BC, making it over 2000 years old. Richard McClintock,
-                  a Latin professor at Hampden-Sydney College in Virginia,
-                  looked up one of the more obscure Latin words, consectetur,
-                  from a Lorem Ipsum passage, and going through the cites of the
-                  word in classical literature, discovered the undoubtable
-                  source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of
-                  "de Finibus Bonorum et Malorum" (The Extremes of Good and
-                  Evil) by Cicero, written in 45 BC. This book is a treatise on
-                  the theory of ethics, very popular during the Renaissance. The
-                  first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
-                  comes from a line in section 1.10.32.
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
+      <section
+        class="hero"
+        style="
+          background-image: linear-gradient(
+              to bottom,
+              rgba(34, 10, 8, 0.6),
+              rgba(34, 10, 8, 0)
+            ),
+            url(images/about.png);
+        "
+      >
+        <article class="hero-content">
+          <h1 class="hero-title">About</h1>
+        </article>
       </section>
 
-      <section class="blog">
+      <section class="about">
         <div class="container">
-          <h4 class="blog-title text-uppercase">
-            Stay Up with the Latest Beauty Trends
-          </h4>
-          <div class="row row-gap">
-            <div class="col-12 col-sm-6 col-md-4 blog-zajedno">
-              <article class="blog-item">
-                <a href="./blog.html" class="blog-all">
-                  <figure class="blog-images">
-                    <img src="images/blog/blog-01.png" alt="blog-img" />
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+              <h2 class="text-uppercase about-naslov">ADDICTED TO BEAUTY</h2>
+              <p class="about-p">
+                The standard chunk of Lorem Ipsum used since the 1500s is
+                reproduced below for those interested. Sections 1.10.32 and
+                1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+                reproduced in their exact original form, accompanied by English
+                from the 1914 translation by H. Rackham.
+              </p>
+
+              <figure class="about-img mb-0">
+                <img src="images/about/about-01.png" alt="about" />
+              </figure>
+
+              <p class="about-p">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content
+                here, content here', making it look like readable English. Many
+                desktop publishing packages and web page editors now use Lorem
+                Ipsum as their default model text, and a search for 'lorem
+                ipsum' will uncover many web sites still in their infancy.
+                Various versions have evolved over the years, sometimes by
+                accident, sometimes on purpose (injected humour and the like).
+              </p>
+
+              <p class="about-p">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using '
+              </p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 about-zajedno">
+              <div class="search">
+                <input type="text" placeholder="Search" class="searchInput" />
+                <button
+                  class="searchButton fa-solid fa-magnifying-glass"
+                ></button>
+              </div>
+
+              <article class="about-item">
+                <a href="./blog-single.html" class="about-all">
+                  <figure class="about-images mb-0">
+                    <img src="images/about/about-02.png" alt="about-img" />
                   </figure>
-                  <div class="blog-link">
-                    <p class="blog-link-p">07/13/2025</p>
-                    <span class="h5 blog-link-name text-uppercase"
-                      >Welcome To The Online Best Model Winner Contest At</span
+                  <div class="about-link">
+                    <p class="about-link-p">07/13/2025</p>
+                    <span class="h5 about-link-name text-uppercase"
+                      >Seven Steps For Keeping Teeth Healthy For A
+                      Lifetime</span
                     >
                   </div>
                 </a>
-              </article>
-            </div>
 
-            <div class="col-12 col-sm-6 col-md-4 blog-zajedno">
-              <article class="blog-item">
-                <a href="./blog.html" class="blog-all">
-                  <figure class="blog-images">
-                    <img src="images/blog/blog-02.png" alt="blog-img" />
+                <a href="./blog-single.html" class="about-all">
+                  <figure class="about-images mb-0">
+                    <img src="images/about/about-03.png" alt="about-img" />
                   </figure>
-                  <div class="blog-link">
-                    <p class="blog-link-p">07/13/2025</p>
-                    <span class="h5 blog-link-name text-uppercase"
-                      >Aiming For Higher The Mastopexy</span
+                  <div class="about-link">
+                    <p class="about-link-p">07/13/2025</p>
+                    <span class="h5 about-link-name text-uppercase"
+                      >Seven Steps For Keeping Teeth Healthy For A
+                      Lifetime</span
                     >
                   </div>
                 </a>
-              </article>
-            </div>
 
-            <div class="col-12 col-sm-6 col-md-4 blog-zajedno">
-              <article class="blog-item">
-                <a href="./blog.html" class="blog-all">
-                  <figure class="blog-images">
-                    <img src="images/blog/blog-03.png" alt="blog-img" />
+                <a href="./blog-single.html" class="about-all">
+                  <figure class="about-images mb-0">
+                    <img src="images/about/about-04.png" alt="about-img" />
                   </figure>
-                  <div class="blog-link">
-                    <p class="blog-link-p">07/13/2025</p>
-                    <span class="h5 blog-link-name text-uppercase"
+                  <div class="about-link">
+                    <p class="about-link-p">07/13/2025</p>
+                    <span class="h5 about-link-name text-uppercase"
                       >Seven Steps For Keeping Teeth Healthy For A
                       Lifetime</span
                     >

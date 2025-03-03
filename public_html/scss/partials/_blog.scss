@@ -89,3 +89,44 @@
     }
   }
 }
+
+.pagi-data {
+  padding: 8rem 0 8rem;
+
+  .pagination {
+    .pagi-item a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .pagi-link-icon {
+      font-family: $lato;
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 4.6rem;
+    }
+
+    .icon {
+      padding-left: 2.5rem;
+    }
+
+    .pagi-link {
+      font-family: $lato;
+      font-weight: 300;
+      font-size: 2rem;
+      line-height: 4.6rem;
+      padding-left: 3rem;
+
+      &:active {
+        font-weight: 700;
+      }
+
+      &:hover {
+        font-family: $lato;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 4.6rem;
+      }
+    }
+  }
+}
